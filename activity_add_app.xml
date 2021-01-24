@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddAppActivity">
+
+    <EditText
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="chat" />
+
+    <EditText
+        android:id="@+id/livevdo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="livevdo" />
+
+    <EditText
+        android:id="@+id/inpurchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="inpurchase" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/galaxy" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add" />
+</LinearLayout>
